@@ -26,7 +26,13 @@
 - The output of each experiment offloads a PCAP file, and VR playout performance log in the corresponding *vrexp* folder.
 
 ### Data Preprocess
-- ToDo
+- Raw data sample, including PCAP and VR performance metrics log file  [:arrow_right:](https://github.com/sajibtariq/360-VR-QoE-In-band-QoS/tree/main/Data_Preprocess/Raw_Data_Sample)
+- QoE value measurement script  [:arrow_right:](https://github.com/sajibtariq/360-VR-QoE-In-band-QoS/tree/main/Data_Preprocess/QoE_Value_Calculation) and output CSV file containing QoE metrics  [:arrow_right: an example](https://github.com/sajibtariq/360-VR-QoE-In-band-QoS/blob/main/Data_Preprocess/Raw_Data_Sample/HTTPS(TCP)/HTTP-1.1/Persistant/host-1_ts-60_thd-1_vpe-0_algo-0_bft-6_delay-5/host-1_ts-60_thd-1_vpe-0_algo-0_bft-6_delay-5-session1_new.csv)
+- QoS feature extraction script [:arrow_right:](https://github.com/sajibtariq/360-VR-QoE-In-band-QoS/tree/main/Data_Preprocess/QoS_Feature_Calculation) and output CSV file containing all QoS features  [:arrow_right: an example](https://github.com/sajibtariq/360-VR-QoE-In-band-QoS/blob/main/Data_Preprocess/Raw_Data_Sample/HTTPS(TCP)/HTTP-1.1/Persistant/host-1_ts-60_thd-1_vpe-0_algo-0_bft-6_delay-5/host-1_ts-60_thd-1_vpe-0_algo-0_bft-6_delay-5-pcap.csv)
+- QoE metrics and QoS features merge script [:arrow_right:](https://github.com/sajibtariq/360-VR-QoE-In-band-QoS/tree/main/Data_Preprocess/QoE_QoS_Merge), with output CSV file as the final dataset sample  [:arrow_right:](https://github.com/sajibtariq/360-VR-QoE-In-band-QoS/tree/main/Data_Preprocess/Final_Dataset_Sample)
+
+
+
 
 ### Data Analysis
 - ToDo
