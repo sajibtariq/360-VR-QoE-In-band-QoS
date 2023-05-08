@@ -30,9 +30,17 @@
 - QoE value measurement script  [:arrow_right:](https://github.com/sajibtariq/360-VR-QoE-In-band-QoS/tree/main/Data_Preprocess/QoE_Value_Calculation) and output CSV file containing QoE metrics  [:arrow_right: an example](https://github.com/sajibtariq/360-VR-QoE-In-band-QoS/blob/main/Data_Preprocess/Raw_Data_Sample/HTTPS(TCP)/HTTP-1.1/Persistant/host-1_ts-60_thd-1_vpe-0_algo-0_bft-6_delay-5/host-1_ts-60_thd-1_vpe-0_algo-0_bft-6_delay-5-session1_new.csv)
 - QoS feature extraction script [:arrow_right:](https://github.com/sajibtariq/360-VR-QoE-In-band-QoS/tree/main/Data_Preprocess/QoS_Feature_Calculation) and output CSV file containing all QoS features  [:arrow_right: an example](https://github.com/sajibtariq/360-VR-QoE-In-band-QoS/blob/main/Data_Preprocess/Raw_Data_Sample/HTTPS(TCP)/HTTP-1.1/Persistant/host-1_ts-60_thd-1_vpe-0_algo-0_bft-6_delay-5/host-1_ts-60_thd-1_vpe-0_algo-0_bft-6_delay-5-pcap.csv)
 - QoE metrics and QoS features merge script [:arrow_right:](https://github.com/sajibtariq/360-VR-QoE-In-band-QoS/tree/main/Data_Preprocess/QoE_QoS_Merge), with output CSV file as the final dataset sample  [:arrow_right:](https://github.com/sajibtariq/360-VR-QoE-In-band-QoS/tree/main/Data_Preprocess/Final_Dataset_Sample)
-
+- **Requirement**:
+  - [Scapy](https://scapy.net/)- to read pcap
+  - [Jupyter Notebook](https://jupyter.org/)
+  - NumPy, pandas  
 
 
 
 ### Data Analysis
 - Machine learning model building script  [:arrow_right:]([https://github.com/sajibtariq/360-VR-QoE-In-band-QoS/tree/main/Data_Preprocess/Raw_Data_Sample](https://github.com/sajibtariq/360-VR-QoE-In-band-QoS/tree/main/Data_Analysis/Machine_Learning))
+- **Requirement**:
+  - [AutoGluon](https://auto.gluon.ai/stable/install.html)
+  - To add AutoGluon in [conda](https://docs.anaconda.com/free/anaconda/install/linux/) environment you may follow [:arrow_right:](https://github.com/autogluon/autogluon/issues/612) [:arrow_right:](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-pkgs.html#installing-non-conda-packages)
+  - [Jupyter Notebook](https://jupyter.org/)
+  -  NumPy, pandas, seaborn, matplotlib 
