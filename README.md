@@ -13,7 +13,7 @@
   - *Videos*: /var/www/html/v1, /var/www/html/v2
   - *Viewport traces*: /usr/local/bin/src/per_video
   - *Network traces*: /home/vr-exp2/Traces
-  - *VR player*: /home/vr-exp2/player
+  - *VR player* (Adpated from [:arrow_right:](https://github.com/rtcostaf/TOMM2019_VR-EXP)): /home/vr-exp2/player
   
 ### Data Acquisition
 - Open the ubuntu terminal in the VM and execute the following command:
