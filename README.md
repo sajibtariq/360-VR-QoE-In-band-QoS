@@ -45,5 +45,5 @@
   - [Jupyter Notebook](https://jupyter.org/)
   -  NumPy, pandas, seaborn, matplotlib
  
-  ### Standalone VR Client and Content Utilization
+### Standalone VR Client and Content Utilization
 - See the given instructions [:arrow_right:](https://docs.google.com/document/d/1IQM-3pIKj_cDVM7pflXPf0Wr4eJIr9WK-q9lZMqeY4g/edit?usp=sharing)
