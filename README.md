@@ -43,4 +43,7 @@
   - [AutoGluon](https://auto.gluon.ai/stable/install.html)
   - To add AutoGluon in [conda](https://docs.anaconda.com/free/anaconda/install/linux/) environment you may follow [:arrow_right:](https://github.com/autogluon/autogluon/issues/612) [:arrow_right:](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-pkgs.html#installing-non-conda-packages)
   - [Jupyter Notebook](https://jupyter.org/)
-  -  NumPy, pandas, seaborn, matplotlib 
+  -  NumPy, pandas, seaborn, matplotlib
+ 
+  ### Standalone VR Client and Content Utilization
+- See the given instructions [:arrow_right:](https://docs.google.com/document/d/1IQM-3pIKj_cDVM7pflXPf0Wr4eJIr9WK-q9lZMqeY4g/edit?usp=sharing)
