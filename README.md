@@ -24,6 +24,14 @@
 - Where param.py contains all the parameters information regarding the experiment and calls main.py program each time with a specific set of parameters, the main.py program further calls tc-bw_delay.sh script to set bandwidth parameters from 4G and 5G pre-collected traces using Linux tc.
 
 - The output of each experiment offloads a PCAP file, and VR playout performance log in the corresponding *vrexp* folder.
+   - You will see three files regarding VR Playout performance: <file_name>.log, <file_name>-segment.csv, and  <file_name>-session.csv.
+   - The <file_name>.log file contains the entire session metrics, such as the total number of tiles downloaded for each zone and resolution, the average bitrate for each zone, total quality switches for each zone, total stall time, and startup delay.
+   - The <file_name>-session.csv file contains the same information as <file_name>.log but in comma-separated values (CSV) format. However, there is a minor mistake:
+       - The column name "z1_bit" should be replaced with the column name "til_4k_z3"
+       - The column name "z2_bit" should be replaced with the column name "z1_bit"
+       - The column name "z3_bit" should be replaced with the column name "z2_bit"
+       - The column name  "til_4k_z3", should be replaced with the column name "z3_bit" 
+   - The <file_name>-segment.csv file contains each downloaded segment's information, such as resolution, data size, download time, bit rate, and so on.
 
 ### Data Preprocess
 - Raw data sample, including PCAP and VR performance metrics log file  [:arrow_right:](https://github.com/sajibtariq/360-VR-QoE-In-band-QoS/tree/main/Data_Preprocess/Raw_Data_Sample)
