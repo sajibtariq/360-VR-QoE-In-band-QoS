@@ -11,7 +11,7 @@
   - Start the "vr-ubuntu 1" vm from VirtualBox.  Select and run Devices --> Insert Guest Additions CD Image and reboot the VM
 - Locations of the 360 videos, vr player, viewport, and network traces are as follows-
   - *Videos*: /var/www/html/v1, /var/www/html/v2
-  - *Viewport traces*: /usr/local/bin/src/per_video
+  - *Viewport traces*: /usr/local/src/per_video
   - *Network traces*: /home/vr-exp2/Traces
   - *VR player* (Adapted from [:arrow_right:](https://github.com/rtcostaf/TOMM2019_VR-EXP)): /home/vr-exp2/player
   
