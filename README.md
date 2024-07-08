@@ -55,3 +55,22 @@
  
 ### Standalone VR Client and Content Utilization
 - See the given instructions [:arrow_right:](https://docs.google.com/document/d/1IQM-3pIKj_cDVM7pflXPf0Wr4eJIr9WK-q9lZMqeY4g/edit?usp=sharing)
+
+### Citation
+We kindly request that you cite our work if you use this project in your research. Please use the following citation format:
+
+M. T. Islam, C. E. Rothenberg and P. H. Gomes, "Predicting XR Services QoE with ML: Insights from In-band Encrypted QoS Features in 360-VR," 2023 IEEE 9th International Conference on Network Softwarization (NetSoft), Madrid, Spain, 2023, pp. 80-88, doi: 10.1109/NetSoft57336.2023.10175481.
+
+```bash
+@INPROCEEDINGS{10175481,
+  author={Islam, Md Tariqul and Rothenberg, Christian Esteve and Gomes, Pedro Henrique},
+  booktitle={2023 IEEE 9th International Conference on Network Softwarization (NetSoft)}, 
+  title={Predicting XR Services QoE with ML: Insights from In-band Encrypted QoS Features in 360-VR}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={80-88},
+  keywords={Solid modeling;Protocols;5G mobile communication;Quality of service;Streaming media;Predictive models;Real-time systems},
+  doi={10.1109/NetSoft57336.2023.10175481}}
+
+```
