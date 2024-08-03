@@ -1,7 +1,7 @@
 ## Predicting XR Services QoE with ML: Insights from In-band Encrypted QoS Features in 360-VR
 ### Getting Started with the Pre-configured Testbed VM
   - The testbed includes Mininet-Wifi, VR Player, TcpDump, 360 Videos, Viewport Traces, and Network Traces 
-   -  **Download link**: [VM](https://drive.google.com/file/d/1NSYjmDCOapjy4XO8rkkpNyIyxY7S85yd/view?usp=sharing) [9 GB Size]: Ubuntu 20.04 x64 - **pass: vrexp**
+   -  **Download link**: [VM](https://drive.google.com/drive/folders/1MhiwJ-_V2TrZsj2xXuprHlFvpN4MzoZH?usp=sharing) [9 GB Size]: Ubuntu 20.04 x64 - **pass: vrexp**
 -  **Requirement**: [Oracle  VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 - After downloading the vm image "vr-ubuntu 1 1.ova", open VirtualBox, select File --> Import Appliance --> vr-ubuntu 1 1.ova
 -  Start the "vr-ubuntu 1" vm from VirtualBox. Select View --> Virtual Screen 1 --> Scale to 100% and select Full-Screen Mode. If the screen does not adjust properly, reboot the vm.
